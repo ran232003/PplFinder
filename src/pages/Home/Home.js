@@ -6,7 +6,6 @@ import * as S from "./style";
 
 const Home = () => {
   const { users, isLoading } = usePeopleFetch();
-
   return (
     <S.Home>
       <S.Content>
