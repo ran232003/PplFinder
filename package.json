@@ -1,10 +1,10 @@
 {
+  "homepage": "http://ran232003.github.io/PplFinder",
   "name": "ppl-finder",
   "version": "1.0.7",
   "bin": "./bin/cli.js",
   "license": "MIT",
   "repository": "https://github.com/powerlink/PplFinder",
-  "homepage": "https://ran232003.github.io/PplFinder",
   "dependencies": {
     "@material-ui/core": "^4.11.4",
     "@material-ui/icons": "^4.11.2",

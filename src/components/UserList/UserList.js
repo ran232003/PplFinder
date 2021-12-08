@@ -19,7 +19,6 @@ const UserList = ({ users, isLoading }) => {
     Germany:false,
     Turkey:false,
   });
-  console.log("render");
   const handleFavorite = (user)=>{
     if(!user.favorite){
       user.favorite = true;
@@ -57,7 +56,6 @@ const UserList = ({ users, isLoading }) => {
   }
 useEffect(()=>{
   //updating after every change in the checkbox
-  console.log("user.favorite")
   const checkState = checkFilter();
   setNoFilter(checkState);
   
@@ -112,7 +110,6 @@ useEffect(()=>{
           );}
           //favorite page display
           else if((noFilter === true||filterState[user?.location.country] === true)&&context.pageNum === 1 &&user.favorite === true){
-            console.log(context.pageNum)
             return (
               <S.User
                 key={index}
